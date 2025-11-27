@@ -1,0 +1,159 @@
+header {
+    background-color: #1D3557;
+    color: black;
+    text-align: center;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    color: honeydew;
+}
+
+footer {
+    background-color: #1D3557;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1D3557;
+    text-decoration: underline;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav a.active {
+    font-weight: bold;
+    color: red;
+
+}
+
+
+nav {
+    background-color: #A8DADC;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Fredoka, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    flex: 1;           
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #A8DADC;
+}
+
+.content {
+    background-color: #F1FAEE;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.start {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+@media (max-width: 900px) {
+    nav ul {
+        gap: 14px;
+        font-size: 1rem; /* suhteellinen koko tabletilla */
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .content {
+        max-width: 90%;
+        padding: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    nav {
+        font-size: 1rem;
+        padding: 8px 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: stretch; 
+        gap: 10px;
+    }
+
+    header, footer {
+        padding: 12px 10px;
+        text-align: center;
+    }
+
+    .content {
+        max-width: 95%;
+        padding: 14px;
+        margin-bottom: 16px;
+    }
+
+    .start {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 12px 14px;
+        font-size: 1rem;
+    }
+}
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
