@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <script src="game3.js" defer></script>
 </head>
+
+<body>
+
 <header>
     <h1>Matematiikkapeli</h1>
     <nav>
@@ -21,16 +24,27 @@
         </ul>
     </nav>
 </header>
-<body>
+
     <main>
         <div class="content">
             <h1>Jako- ja kertolaskut</h1>
             <p>Tervetuloa jako- ja kertolaskujen osioon!</p>
         </div>
         <button class="start">Pelaa</button>
+        <div id="gameArea">
+    <p id="question" class="question"></p>
+
+    <div class="answer-row">
+        <input type="text" id="answerBox" placeholder="Vastauksesi">
+        <button id="submitAnswer" class="answerBtn">Vastaa</button>
+    </div>
+
+    <p id="result"></p>
+</div>
     </main>
-</body>
+
 <footer>
     <p>Tekijät: Tuomas Kautto, Juuso Pennanen, Eljas Suomi, Okko-Albert Lepikkö</p>
 </footer>
+</body>
 </html>
