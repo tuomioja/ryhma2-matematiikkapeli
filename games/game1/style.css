@@ -134,7 +134,7 @@ main h1 {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
-/** Jos haluat, että tabletilla laatikko on hiukan matalampi **/
+
 @media (max-width: 900px) {
     .content {
         min-height: 55vh;
