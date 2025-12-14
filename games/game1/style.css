@@ -1,0 +1,142 @@
+#game-content button, #play-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #1D3557;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#game-content button:hover {
+    background-color: #457B9D;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#play-button {  
+    margin-top: 50px;
+    align-self: center;
+    font-size: 1.2em;
+    min-width: 200px;
+    background-color: #284671;
+    border: 2px solid rgba(240, 255, 240, 0.823);
+    color:honeydew;
+    transition: 0.2s ease;
+}
+
+#play-button:hover {
+    background-color: #1D3557;
+    transform: scale(1.05);
+}
+
+#answers button {
+    background-color: #457B9D;
+    color: honeydew;
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 60%;
+    border: 2px solid #062d65;
+    border-radius: 10px;
+    font-size: 1.2em;
+    transition: 0.2s ease;
+}
+
+#answers button:hover {
+    background-color: #1D3557;
+    transform: scale(1.05);
+}
+
+#question {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.content {
+    background: linear-gradient(170deg, #ffffff 0%, #457B9D 220%);
+    padding: 30px;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 14px;
+    min-height: 45vh;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0px 6px 10px rgba(0,0,0,0.1);
+    border: 2px solid #1D3557;
+}
+
+.content p, .content math{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #1D3557;
+}
+
+#score {
+    color: #1D3557;
+    display: inline-block;
+    font-size: 1.3rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+main p {
+    margin: 0;
+    line-height: 1.45;
+}
+
+main h1 {
+    margin-bottom: 0.6rem;
+    margin-top: 0;
+}
+
+.fraction {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 2px;
+    font-size: 1em;
+}
+
+.fraction .numerator {
+    display: block;
+    border-bottom: 3px solid white;
+    line-height: 1;
+}
+
+.fraction .denominator {
+    display: block;
+    line-height: 1;
+}
+
+
+/** ------------------------------- **/
+
+#play-button:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 4px #72d4d7;
+}
+
+#play-button:active {
+    transform: scale(0.98);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/** Jos haluat, että tabletilla laatikko on hiukan matalampi **/
+@media (max-width: 900px) {
+    .content {
+        min-height: 55vh;
+    }
+}
