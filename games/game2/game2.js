@@ -86,6 +86,9 @@ function nextQuestion() {
 }
 
 function endGame() {
+
+    sessionStorage.setItem("game2-score", score);
+
     document.getElementById("question").innerText = "Peli Loppui!";
     document.getElementById("options").innerHTML = "";
     document.getElementById("feedback").innerText =
