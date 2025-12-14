@@ -8,28 +8,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <script src="script/main.js" defer></script>
+    <!-- Summary script: shows scores saved in sessionStorage -->
+    <script src="summary.js" defer></script>
 </head>
-<header>
-    <h1>Matematiikkapeli</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Etusivu</a></li>
-            <li><a href="info.html">Info</a></li>
-            <li><a href="games.html">Pelit</a></li>
-            <li><a href="summary.html">Kooste</a>
-        </ul>
-    </nav>
-</header>
 <body>
+    <header>
+        <h1>Matematiikkapeli</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Etusivu</a></li>
+                <li><a href="info.html">Info</a></li>
+                <li><a href="games.html">Pelit</a></li>
+                <li><a href="summary.html">Kooste</a>
+            </ul>
+        </nav>
+    </header>
     <main>
         <div class="content">
-            <h1>Matematiikkapeli</h1>
-            <p>Tämä on matematiikkapelin koostesivu</p>
+            <h1>Pisteet</h1>
+            <p>Alta kaikista pelatuista peleistä saamasi pisteet ja kokonaispisteet</p>
+            <h2>Pelien tulokset</h2>
+            <p id="game1result"></p>
+            <p id="game2result"></p>
+            <p id="game3result"></p>
+            <p id="game4result"></p>
+            <p id="totalresult"></p>
         </div>
     </main>
+    <footer>
+        <p>Tekijät: Tuomas Kautto, Juuso Pennanen, Eljas Suomi, Okko-Albert Lepikkö</p>
+    </footer>
 </body>
-<footer>
-    <p>Tekijät: Tuomas Kautto, Juuso Pennanen, Eljas Suomi, Okko-Albert Lepikkö</p>
-</footer>
 </html>

@@ -216,3 +216,26 @@ html, body {
     font-size: 20px;
     font-weight: bold;
 }
+
+button.start {
+    display: block;
+    padding: 12px 20px;
+    margin: 10px 0;
+    background-color: #1D3557;
+    color: #A8DADC;
+
+    border: none;            /* Poistaa buttonin oletusreunan */
+    border-radius: 6px;
+
+    font-weight: bold;
+    text-align: center;
+
+    cursor: pointer;         /* Hiiri-ikoni */
+    font-family: inherit;    /* Sama fontti kuin muu sivu */
+    font-size: inherit;      /* Sama fonttikoko */
+}
+
+button.start:hover {
+    background-color: #457B9D;
+    color: white;
+}

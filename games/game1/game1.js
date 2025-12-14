@@ -156,9 +156,9 @@ function startGame() {
                     answerContent.innerHTML = '';
                     if (currentScore == 15) {
                         questionContent.textContent = "Mahtavaa! Sait kaikki oikein!";
-                    } else if (currentScore >=7) {
+                    } else if (currentScore >=10) {
                         questionContent.textContent = "Loistavaa! Sait lähes kaikki oikein! Voit jatkaa harjoittelua saadaksesi täydet pisteet! tai siirtyä seuraavaan peliin";
-                    } else if (currentScore >=4) {
+                    } else if (currentScore >=7) {
                         questionContent.textContent = "Hyvä yritys! Sait osan oikein, mutta voit parantaa tulostasi jatkamalla harjoittelua.";
                     } else{
                         questionContent.textContent = "Vielä jäi parannettavaa, mutta älä lannistu!";

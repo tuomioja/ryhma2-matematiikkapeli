@@ -157,3 +157,36 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+
+.play-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #1D3557;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.play-button:hover {
+    background-color: #457B9D;
+    color: white;
+}
+.game-link {
+    display: block;
+    padding: 12px 20px;
+    margin: 10px 0;
+    background-color: #1D3557;
+    color: #A8DADC;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.game-link:hover {
+    background-color: #457B9D;
+    color: white;
+}
