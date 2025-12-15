@@ -28,7 +28,6 @@ function startGame() {
     const questions = [
 
         {
-
             question: "Paljonko 10% on luvusta 50?",
             answers: [5, 10, 15, 20],
             correct: 5,
